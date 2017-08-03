@@ -7,6 +7,8 @@ import py.com.pronet.entities.User;
 public interface UserService {
 
 	List<User> findAll();
+	
+	User findById(Long id);
 
 	List<User> userByName(String name);
 
